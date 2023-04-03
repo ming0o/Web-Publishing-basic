@@ -58,15 +58,108 @@ img{
 }
 .insert_article2{
     display: flex;
-    width: 100%;
+    width: 80%;
     zoom: .8;
     font-size: 12px;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 0;
 }
 @media (min-width: 1200px){
     .insert_article2{
         display: none;
+    }
+}
+.logo{
+    display: flex;
+    content: url("https://i.postimg.cc/bG26PfvP/1920-01-1.png");
+    width: 3%;
+    height: auto;
+    margin: 0;
+    margin-right: 3%;
+    margin-left: 90%;
+    font-size:0;
+}
+.logo a{
+    font-size:0;
+    margin: 0;
+}
+.insert_linebox{
+    flex-direction: row;
+}
+.insert_line{
+    content: url("https://i.postimg.cc/hGfcnZx6/Line-1.png");
+    height: 50vh;
+    width: auto;
+    float: left;
+    margin-left: 30%;
+    margin-top:0;
+    margin-right:0;
+}
+.insert_line2{
+    content: url("https://i.postimg.cc/hGfcnZx6/Line-1.png");
+    height: 50vh;
+    width: auto;
+    float: right;
+    margin-right: 30%;
+    margin-top:0;
+    margin-left: 0;
+}
+.insert_gallerybox{
+    display: flex;
+    background: #AAA1E5;
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 70vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10vh;
+    flex-direction: column;
+    clear: both;
+    margin-bottom:30vh;
+}
+.insert_picturebox{
+    display: flex;
+    flex-direction: row;
+    background-color: none;
+    margin-bottom:0;
+    max-height:80%;
+
+}
+
+.pic1{
+    display: flex;
+    content: url("https://i.postimg.cc/3xcJk0Xk/mck-604074903f631-562x843.jpg");
+    margin-left:5%;
+    max-height:100%;
+    margin-bottom: 0;
+}
+.pic2{
+    display: flex;
+    content: url("https://i.postimg.cc/RFrtnD7J/Cardi-B-bb17-2020-billboard-1500-1606919411-compressed.jpg");
+    margin-right:0;
+    margin-left:0;
+    max-height:100%;
+    margin-bottom: 0;
+}
+.pic3{
+    display: flex;
+    content: url("https://i.postimg.cc/W4dmZZxC/mck-604074892fc4e.jpg");
+    margin-left:0;
+    max-height:100%;
+    margin-bottom: 0;
+}
+.insert_title{
+    display: flex;
+    color: #ffffff;
+    width:100%;
+    margin-top: 3%;
+    margin-left:25%;
+    font-size: 2rem;
+    font-weight: 700;
+}
+@media (min-width: 950px){
+    .insert_title{
+    display: none;
     }
 }
