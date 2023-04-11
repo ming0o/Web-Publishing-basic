@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+   <title>Traveling</title>
+   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <style>
+        .bg-video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.6;
+        }
+        h1.logo b,
+        .navigation a:first-child,
+        .navigation a,
+        .navigation b {
+            font-weight: bold;
+        }
+        body{
+            font-family: 'Noto Sans KR', sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        h1 {
+            text-align: center;
+            border: 8px solid gray; 
+            display: inline-block;
+            padding: 5px 80px;
+            letter-spacing: 10px;
+            margin: auto;
+        }
+        .logo {
+            border: 8px solid rgb(255, 218, 254);
+            display: inline-block;
+            padding: 5px 80px;
+            letter-spacing: 10px;
+            margin-left: 50px; 
+            margin-right: 50px;
+        }             
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+        .imgmain{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .navigation a, .navigation b {
+            margin: 0 20px;
+        }
+        .navigation a:first-child {
+            font-weight: bold;
+        }
+        .navigation a {
+            text-decoration: none;
+            color: gray;
+            font-size: 15px;
+        }
+        .navigation a:nth-child(1) {
+        color: black;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+        <source src="img/video.mp4" type="video/mp4" />
+        <source src="img/video.webm" type="video/webm" />
+            Your browser is not supported!
+        </video>
+    </div>
+    <h1 class="logo" style="font-size: 20px;">TRAVEL</h1>
+    <div class="navigation">
+        <a href="home.html" style="font-size:15px; margin: 0 10px">Home</a>
+        <a href="paris.html" style="font-size:15px; margin: 0 10px">Paris</a>
+        <a href="hawaii.html" style="font-size:15px; margin: 0 10px">Hawaii</a>
+        <a href="tokyo.html" style="font-size:15px; margin: 0 10px">Tokyo</a>
+    </div>
+    <img src="https://i.postimg.cc/KcLHh3bd/101700332-1.jpg" alt="flight">
+</body>
+</html>
