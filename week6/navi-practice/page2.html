@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .logo{
+            display: inline-block; /* 여기 주의!! 인라인블록 넣어야 딱맞는 예쁜 박스,, */
+            text-align: center; 
+            border: 3px solid #000000;
+            /* 글자 간격이 끝까지 들어가니까 오른쪽엔 그만큼 빼주는 거 주의 */
+            letter-spacing: 5px;
+            padding-left: 30px;
+            padding-right: 25px;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+        .navigation a, .navigation b {
+            /* 순서대로 위|글자 사이 간격 */
+            margin: 0 20px;
+        }
+        .navigation a{
+            text-decoration: none;
+            color: gray;
+            font-size: 15px;
+        }
+        .navigation a:nth-child(3){
+            color: black;
+        }
+        .navigation a:first-child,
+        .navigation a,
+        .navigation b {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="logo">LOGO</h1>
+    <div class="navigation">
+        <a href="main.html">Main</a>
+        <a href="page1.html">Page1</a>
+        <a href="page2.html">Page2</a>
+        <a href="page3.html">Page3</a>
+</body>
+</html>
