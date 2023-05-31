@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    /* 스타일 시트 */
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        font-family: Helvetica, sans-serif;
+    }
+    nav {
+        display: flex;
+        gap: 30px;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 20px;
+    }
+    .hero_header{
+        width: 100%;
+    }
+    .new-products {
+        font-family: Helvetica, sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        color: #545454;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .product-container {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 20px;
+        margin-bottom: 80px;
+    }
+    .product {
+        width: 225px;
+        text-align: center;
+    }
+    .product img{
+        width: 100%;
+        height: 100%;
+    }
+    .product a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #545454;
+        text-decoration: none;
+    }
+    .product a .price {
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .footer img{
+        width: 20px;
+        height: 21px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png" alt="Logo">
+        <nav>
+        <p>Contact</p>
+        <p>Shop</p>
+        <p>Cart</p>
+        <p>Login</p>
+        </nav>
+    </header>
+    <img class="hero_header" src="./img/hero_header.jpg" alt="hero_header">
+    <h1 class="new-products">Our New Products</h1>
+    <div class="product-container">
+        <div class="product">
+            <a href="#">
+                <img src="./img/sunglasses.jpg" alt="Sunglasses">
+                <span style="margin-top: 20px;">Sunglasses</span>
+                <span class="price" style="margin-top: 4px;">49,000</span>
+            </a>
+        </div>
+        <div class="product">
+            <a href="#">
+                <img src="./img/tassel_loafer.jpg" alt="Loafer">
+                <span style="margin-top: 20px;">Tassel Loafer</span>
+                <span class="price" style="margin-top: 4px;">89,000</span>
+            </a>
+        </div>
+        <div class="product">
+            <a href="#">
+                <img src="./img/beige_bag.jpg" alt="Beige_bag">
+                <span style="margin-top: 20px;">Beige bag</span>
+                <span class="price" style="margin-top: 4px;">69,000</span>
+            </a>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <a href="#">
+                <img src="./img/sneakers.jpg" alt="Sneakers">
+                <span style="margin-top: 20px;">Sneakers</span>
+                <span class="price" style="margin-top: 4px;">79,000</span>
+            </a>
+        </div>
+        <div class="product">
+            <a href="#">
+                <img src="./img/Slippers.jpg" alt="Slippers">
+                <span style="margin-top: 20px;">Slippers</span>
+                <span class="price" style="margin-top: 4px;">29,000</span>
+            </a>
+        </div>
+        <div class="product">
+            <a href="#">
+                <img src="./img/wrist_watch.jpg" alt="wrist_watch">
+                <span style="margin-top: 20px;">Wrist Watch</span>
+                <span class="price" style="margin-top: 4px;">99,000</span>
+            </a>
+        </div>
+    </div>
+    <div class="product-container">
+        <div class="product">
+            <a href="#">
+                <img src="./img/fedora_hat.jpg" alt="fedora_hat">
+                <span style="margin-top: 20px;">Fedora Hat</span>
+                <span class="price" style="margin-top: 4px;">39,000</span>
+            </a>
+        </div>
+        <div class="product">
+            <a href="#">
+                <img src="./img/classic_loafer.jpg" alt="Classic_Loafer">
+                <span style="margin-top: 20px;">Classic Loafer</span>
+                <span class="price" style="margin-top: 4px;">99,000</span>
+            </a>
+        </div>
+        <div class="product">
+            <a href="#">
+                <img src="./img/pink_bag.jpg" alt="pink_bag">
+                <span style="margin-top: 20px;">Pink bag</span>
+                <span class="price" style="margin-top: 4px;">79,000</span>
+            </a>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">
+            <img src="./img/facebook.png" alt="Facebook">
+            <img src="./img/instagram.png" alt="Instagram">
+            <img src="./img/twitter.png" alt="Twitter">
+        </div>
+    </div>
+</body>
+</html>
